@@ -1,6 +1,6 @@
 <dancingCat>
   <img src="img/{motion}.gif">
-
+    <h1>I'm a cat</h1>
 
   <div>
     <div class="bar hunger">
