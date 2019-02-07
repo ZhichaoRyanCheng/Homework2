@@ -46,9 +46,11 @@
     checkStatus() {
       if (this.hunger >= 70){
         this.motion = "slowDance";
-      } else if (this.hunger <= 30){
+      } else if (this.hunger <= 40){
         this.motion = "slowestDance";
-      }else{
+      }
+      
+      else{
         this.motion = "dance";
       }
     }
@@ -72,7 +74,8 @@
 
   img{
     weight:auto;
-    height:200px;
+    height:500px;
+    position: center;
   }
 
   </style>
