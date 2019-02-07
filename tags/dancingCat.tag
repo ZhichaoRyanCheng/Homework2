@@ -6,12 +6,12 @@
     <div class="bar hunger">
       <div style="width:{ hunger }%;">&nbsp;</div>
     </div>
-    <p>Hunger: { hunger }</p>
+    <p>Mood: { hunger }</p>
   </div>
 
 
-  <button onclick={ feed }>Feed</button>
-  <button onclick={ unfeed }>Not Feed</button>
+  <button onclick={ feed }>Touch</button>
+  <button onclick={ unfeed }>Pounch</button>
 
 
   <script>
@@ -49,7 +49,8 @@
       } else if (this.hunger <= 40){
         this.motion = "slowestDance";
       }
-      
+
+
       else{
         this.motion = "dance";
       }
