@@ -7,14 +7,27 @@
   </head>
 
   <body>
-    <!-- place the custom tag anywhere inside the body -->
     <dancingCat></dancingCat>
+    <footer></footer>
+
+    <header></header>
+    <parent-child></parent-child>
+    <meme1></meme1>
+    <meme2></meme2>
+    <app></app>
     <!-- <pet></pet> -->
     <!-- include the tag -->
     <script type="riot/tag" src="tags/dancingCat.tag"></script>
+    <script type="riot/tag" src="tags/footer.tag"></script>
+    
+    <script type="riot/tag" src="tags/header.tag"></script>
+    <script type="riot/tag" src="tags/parent-child.tag"></script>
+    <script type="riot/tag" src="tags/meme1.tag"></script>
+    <script type="riot/tag" src="tags/meme2.tag"></script>
+    <script type="riot/tag" src="tags/app.tag"></script>
     <!-- include riot.js -->
     <script src="https://cdn.jsdelivr.net/npm/riot@3.8/riot+compiler.min.js"></script>
-    <!-- mount the tag -->
+
     <script>riot.mount('*')</script>
 
     <style>
